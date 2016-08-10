@@ -27,7 +27,7 @@
 
 	st = status
 
-	co = commit
+	co = checkout
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
