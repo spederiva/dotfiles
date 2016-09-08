@@ -107,6 +107,8 @@ brew install python3
 brew install node
 brew install opam # for OCaml
 brew install mono # for F#
+brew install scala
+brew install sbt # Scala Build Tool
 
 # Add all kinds of fancy tab auto-completions to bash
 brew install bash-completion
