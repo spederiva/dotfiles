@@ -24,5 +24,6 @@ else
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt;
 	fi;
+	source $HOME/.macos
 fi;
 unset doIt;
