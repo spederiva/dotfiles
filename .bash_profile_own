@@ -1,0 +1,13 @@
+alias ls="ls -G"
+alias cd..="cd .."
+alias grep="grep --color=auto"
+alias ll="ls -lFGh"
+alias la="ls -lFGha"
+alias md="mkdir -p"
+alias o="less"
+alias rd="rmdir"
+alias rehash="hash -r"
+alias hh="history 10"
+
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
