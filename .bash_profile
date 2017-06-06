@@ -46,11 +46,3 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 # complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
-
-# enable Homebrew package 'bash-completion' to function
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	. $(brew --prefix)/etc/bash_completion
-fi
-
-# Launch ssh-agent so all the SSH keys stored in your Keychain will be loaded
-eval `ssh-agent -s` > /dev/null 2> /dev/null
