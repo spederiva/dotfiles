@@ -11,6 +11,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Developer"
 alias g="git"
 alias h="history"
+alias hh="history|grep"
 
 # if using GNU `ls`
 # Detect which `ls` flavor is in use
