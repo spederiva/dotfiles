@@ -1,4 +1,4 @@
-# Asaf's dotfiles
+# Sebastian's dotfiles
 
 Based on [Mathias](https://github.com/mathiasbynens/dotfiles)'s.
 
