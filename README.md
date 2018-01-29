@@ -1,6 +1,6 @@
 # Sebastian's dotfiles
 
-Based on [Mathias](https://github.com/mathiasbynens/dotfiles)'s.
+Based on [Mathias](https://github.com/mathiasbynens/dotfiles)'s and [Asaf] (https://github.com/asafch/dotfiles)'s.
 
 ## Installation
 
