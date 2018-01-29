@@ -11,6 +11,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Developer"
 alias g="git"
 alias h="history"
+alias hh="history|grep"
 
 # if using GNU `ls`
 # Detect which `ls` flavor is in use
@@ -23,10 +24,10 @@ else # macOS `ls`
 fi
 
 # List all files colorized in long format
-alias ll="ls -lFh ${colorflag}"
+alias ll="ls -lFh --group-directories-first ${colorflag}"
 
 # List all files colorized in long format, including dot files
-alias la="ls -alFh ${colorflag}"
+alias la="ls -alFh --group-directories-first ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
