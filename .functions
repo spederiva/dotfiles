@@ -253,6 +253,8 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
+# Split files by date, creating folders in the following format
+# YYYYMMDD
 function splitByDate() {
 
     if [ "$1" != "-modified" ] && [ "$1" != "-created" ]; then
